@@ -12,6 +12,7 @@ public class Main {
         runPangramChecker();
         runBusinessLogic();
         runInheritanceExample();
+        BigONotationExample.runBigONotationExamples();
     }
 
     public static void runPangramChecker() {
@@ -33,6 +34,6 @@ public class Main {
 
     public static void runInheritanceExample() {
         System.out.println("-----------run Inheritance Example-----------");
-        System.out.println(new GrandChild(2,3));
+        System.out.println(new GrandChild(2, 3));
     }
 }
