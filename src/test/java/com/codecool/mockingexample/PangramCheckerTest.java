@@ -1,5 +1,7 @@
 package com.codecool.mockingexample;
 
+import com.codecool.mockingexample.pangram.Database;
+import com.codecool.mockingexample.pangram.PangramChecker;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

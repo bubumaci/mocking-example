@@ -1,4 +1,4 @@
-package com.codecool.mockingexample;
+package com.codecool.mockingexample.pangram;
 
 public class Database {
     public int get() {
