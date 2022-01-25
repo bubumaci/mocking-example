@@ -3,6 +3,7 @@ package com.codecool.mockingexample;
 import com.codecool.mockingexample.businesslogic.BusinessLogic;
 import com.codecool.mockingexample.businesslogic.DataSourceInterface;
 import com.codecool.mockingexample.businesslogic.InMemoryDB;
+import com.codecool.mockingexample.inheritance.GrandChild;
 import com.codecool.mockingexample.pangram.Database;
 import com.codecool.mockingexample.pangram.PangramChecker;
 
@@ -10,6 +11,7 @@ public class Main {
     public static void main(String[] args) {
         runPangramChecker();
         runBusinessLogic();
+        runInheritanceExample();
     }
 
     public static void runPangramChecker() {
@@ -27,5 +29,10 @@ public class Main {
         dataSource.addElement(12);
         BusinessLogic businessLogic = new BusinessLogic(dataSource);
         businessLogic.run();
+    }
+
+    public static void runInheritanceExample() {
+        System.out.println("-----------run Inheritance Example-----------");
+        System.out.println(new GrandChild(2,3));
     }
 }
